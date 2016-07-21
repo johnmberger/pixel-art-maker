@@ -17,7 +17,7 @@ $(document).ready(function() {
     };
     brush = $(this).attr('name');
   });
-
+// drag and paint
   $('.pixel').on('mousedown', function() {
     $(this).css('background-color', brush);
     $('.pixel').on('mouseenter', function() {
