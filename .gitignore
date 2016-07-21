@@ -1,0 +1,6 @@
+.DS_Store
+.jscsrc
+gulpfile.js
+package.json
+node_modules
+.junk

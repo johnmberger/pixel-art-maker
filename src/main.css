@@ -1,0 +1,38 @@
+body{
+  background-color: grey;
+}
+.container {
+  background-color: lightgrey;
+  width: 796px;
+  height: 570px;
+  border-radius: 3%;
+  box-shadow: 0 0 20px #000;
+  margin-top: 2%;
+  line-height: 0;
+  padding: 2%;
+}
+
+#colors {
+  margin-top: 20px;
+}
+
+.pixel {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin: .5px .5px;
+}
+
+.brushColor {
+  border-radius: 50%;
+  width: 42.5px;
+  height: 42.5px;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 2px;
+}
+
+#clear {
+  margin-top: 20px;
+}
