@@ -20,13 +20,12 @@ $(document).ready(function() {
 
   $('.pixel').on('mousedown', function() {
     $(this).css('background-color', brush);
-    // Still trying to figure out click-and-drag functionality
-    // $('.pixel').on('mouseenter', function() {
-    //   $(this).css('background-color', brush);
-    //   $('pixel').on('mouseup', function() {
-    //     return;
-    //   });
-    // });
+    $('.pixel').on('mouseenter', function() {
+      $(this).css('background-color', brush);
+      $('#canvas').on('mouseup', function(){
+        $('.pixel').off('mouseenter');
+      });
+    });
   });
   $('#clear').on('click', function() {
     $('.pixel').css('background-color', 'white');
