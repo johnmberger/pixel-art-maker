@@ -10,11 +10,12 @@ body{
   margin-top: 2%;
   line-height: 0;
   padding: 2%;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 #colors {
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .pixel {
@@ -23,7 +24,6 @@ body{
   height: 10px;
   display: inline-block;
   margin: .5px .5px;
-  cursor: crosshair;
 }
 
 .brushColor {

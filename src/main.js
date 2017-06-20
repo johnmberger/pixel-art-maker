@@ -12,7 +12,7 @@ $(document).ready(function() {
   $('.brushColor').on('click', function() {
     $('.brushColor').css('border', '1px solid black');
     $(this).css('border', '7px solid black');
-    if($(this).attr('name') === 'black'){
+    if ($(this).attr('name') === 'black') {
       $(this).css('border', '7px solid white');
     };
     brush = $(this).attr('name');
